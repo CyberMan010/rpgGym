@@ -1,0 +1,47 @@
+/* Global Styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fafafa;
+  color: #333;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  background-color: #0066cc;
+  color: white;
+  font-size: 1rem;
+}
+
+button:hover {
+  background-color: #0052a3;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
