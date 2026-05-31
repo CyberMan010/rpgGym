@@ -1,11 +1,15 @@
+using Application.ServiceRegistration;
 using Application.Services;
-using Infrastructure.Persistence;
+using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-builder.Services.AddSingleton<HealthService>();
-builder.Services.AddSingleton<InMemoryDatabase>();
+// Auto-register all services marked with ServiceRegistrationAttribute
+builder.Services.AddAutoRegisteredServices(
+    typeof(Program).Assembly,
+    Assembly.Load("Application"),
+    Assembly.Load("Infrastructure")
+);
 
 builder.Services.AddControllers();
 

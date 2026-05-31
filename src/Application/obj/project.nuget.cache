@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "fFOl41DUWJs=",
+  "dgSpecHash": "3rM0vCEWYVk=",
   "success": true,
   "projectFilePath": "C:\\Users\\a7mad_personal\\source\\repos\\rpgGym\\src\\Application\\Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\a7mad_personal\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.0\\microsoft.extensions.dependencyinjection.abstractions.9.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -3,3 +3,12 @@
 ################################################################################
 
 /.vs
+/src/Api/bin/Debug/net9.0
+/src/Api/obj/Debug/net9.0/ref
+/src/Api/obj/Debug/net9.0/refint
+/src/Application/bin/Debug/net9.0
+/src/Application/obj/Debug/net9.0/ref
+/src/Application/obj/Debug/net9.0/refint/Application.dll
+/src/Client/bin/Debug/net9.0
+*.dll
+/src/Api/obj/Debug/net9.0/Api.AssemblyInfoInputs.cache
