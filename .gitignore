@@ -12,3 +12,33 @@
 /src/Client/bin/Debug/net9.0
 *.dll
 /src/Api/obj/Debug/net9.0/Api.AssemblyInfoInputs.cache
+# Build results
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider
+.idea/
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# NuGet
+packages/
+*.nupkg
+
+# Publish output
+publish/
+
+# Temporary files
+*.tmp
+*.cache
