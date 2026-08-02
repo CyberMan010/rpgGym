@@ -11,6 +11,12 @@ builder.Services.AddAutoRegisteredServices(
     Assembly.Load("Infrastructure")
 );
 
+//[ServiceRegistration]  // Defaults to Singleton
+//public class MyService { }
+
+//[ServiceRegistration(ServiceLifetime.Scoped)]
+//public class MyScopedService { }
+
 builder.Services.AddControllers();
 
 var app = builder.Build();
