@@ -42,3 +42,6 @@ publish/
 # Temporary files
 *.tmp
 *.cache
+bin/
+obj/
+.vs/
